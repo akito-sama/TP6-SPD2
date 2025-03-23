@@ -44,7 +44,7 @@ let submit = async () => {
       </div>
       <div class="section">
         <label for="">Tags: </label>
-        <input type="text" v-model="Tags" />
+        <input type="text" v-model="Tags" placeholder="seprate tags with ," />
       </div>
       <div class="section">
         <button type="submit">submit</button>
